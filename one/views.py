@@ -12,3 +12,6 @@ def ceshi(request):
     return HttpResponse('配置好之后的第一次视图提交方式---码云仓库 github仓库码云设置,所以此时直接用不了',)
 
 
+def github(request):
+    print('将文件上传到github之后')
+    return HttpResponse('文件上传到github之后的第一次推送')
