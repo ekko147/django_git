@@ -9,4 +9,4 @@ def user(request):
     return HttpResponse('访问user视图')
 def ceshi(request):
     print('视图提交')
-    return HttpResponse('配置好之后的第一次视图提交方式')
+    return HttpResponse('配置好之后的第一次视图提交方式---码云仓库')
