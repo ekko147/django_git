@@ -7,3 +7,6 @@ def index(request):
 def user(request):
     print('user视图')
     return HttpResponse('访问user视图')
+def ceshi(request):
+    print('视图提交')
+    return HttpResponse('配置好之后的第一次视图提交方式')
