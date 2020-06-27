@@ -9,8 +9,6 @@ def user(request):
     return HttpResponse('访问user视图')
 def ceshi(request):
     print('视图提交')
-    return HttpResponse('配置好之后的第一次视图提交方式---码云仓库')
+    return HttpResponse('配置好之后的第一次视图提交方式---码云仓库 github仓库码云设置,所以此时直接用不了',)
 
-def github(request):
-    print ('github视图提交')
-    return HttpResponse('配置好之后的第一次视图提交方式---GitHub 仓库')
+
